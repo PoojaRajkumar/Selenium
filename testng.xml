@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="bl.framework.testcases.TC002_EditLead"/>
+      <class name="bl.framework.testcases.TC001_LoginLogout"/>
+      <class name="bl.framework.testcases.TC003_CreateLead"/>
+      <class name="bl.framework.testcases.TC004_DeleteLead"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite1 -->
